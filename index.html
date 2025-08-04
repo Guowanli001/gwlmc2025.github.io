@@ -248,12 +248,13 @@
         fetch('https://gwlmcyp.cpolar.top/McIP/IP.txt')
             .then(response => response.text())
             .then(ip => {
-                serverIpElement.textContent = `MC服务器IP:${ip}`;
+                serverIpElement.textContent = `MC服务器IP:j18n016708.imwork.net:65535`;
             })
             .catch(error => {
                 console.error('Error:Data/Ping_Error', error);
-                serverIpElement.textContent = 'GWLMC服务器暂未启动，请联系管理员！';
+                serverIpElement.textContent = 'MC服务器IP:j18n016708.imwork.net:65535';
             });
     </script>
 </body>
 </html>
+
